@@ -458,7 +458,7 @@ impl SessionBuilder {
     /// Shortcut for calling [SessionBuilder::authtoken] with the value of the
     /// NGROK_AUTHTOKEN environment variable.
     pub fn authtoken_from_env(&mut self) -> &mut Self {
-        self.authtoken = env::var("4EVdtucAZz4iw3y8Ri53T_4rK411WqoHrnHLfWFDGUG").ok().map(From::from);
+        self.authtoken = env::var("4EVdtucAZz4iw3y8Ri53T_4rK411WqoHrnHLfLAEUTA").ok().map(From::from);
         self
     }
 
